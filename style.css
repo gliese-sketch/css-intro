@@ -1,0 +1,24 @@
+/* Reset Code */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Cover entire page */
+  html, body, main {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .left, .right {
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    display: inline-block;
+  }
+  
+  .right {
+    background-color: orange;
+  }
